@@ -13,15 +13,14 @@
 ### File Navigation & Searching:
 
 * [Telescope](https://github.com/nvim-telescope/telescope.nvim)
-  
-  - `Ctrl+F` to Find files.
-  - `Space FG` to Fuzzy Find in the current directory.
-  - `Space D` to open Diagnostics panel.
+    
+    - `Ctrl+f` to Find files.
+    - `Space fg` to Fuzzy Find in the current directory.
 
 * [NeoTree](https://github.com/nvim-neo-tree/neo-tree.nvim)
-  
-  - `Alt+B` to Open/Close NeoTree On Right.
-  - `Alt-F` to Focus on NeoTree.
+    
+    - `Alt+b` to Open/Close NeoTree On Right.
+    - `Alt+f` to Focus on NeoTree.
 
 ### LSP/Diagnostics:
   
@@ -29,6 +28,10 @@
 * [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 * [Mason](https://github.com/mason-org/mason.nvim)
 * [Mason-lspconfig](https://github.com/mason-org/mason-lspconfig.nvim)
+* [Trouble](https://github.com/folke/trouble.nvim)
+
+    - `Space d` to Toggle file diagnostics.
+    - `Space D` to Toggle workspace diagnostics.
 
 ### Completion/Autocomplete Engine:
 
@@ -42,6 +45,10 @@
 ### AI Assistance:
 * [Windsurf (Codeium)](https://github.com/Exafunction/windsurf.nvim)
 
+    - `:Codeium Auth` to Authorize Codeium.
+    - `:Codeium Toggle` to Toggle Codeium.
+    - `:Codeium Chat` to open Chat.
+
 ### QOL Utilities:
 
 * [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
@@ -49,10 +56,14 @@
 * [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 * [lorem.nvim](https://github.com/derektata/lorem.nvim)
 * [mini.hipatterns](https://github.com/nvim-mini/mini.hipatterns)
+    - `TODO`
+    - `NOTE`
+    - `HACK`
+    - `FIXME`
 
 ## Installation:
 
-Note: `git` need to pre-installed. 
+Note: `git` `neovim v0.10+` `gzip` is need to pre-installed. 
 
 ### Linux/MacOS
 
